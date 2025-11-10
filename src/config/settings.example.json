@@ -1,0 +1,15 @@
+{
+  "request": {
+    "timeoutSeconds": 20,
+    "headers": {
+      "User-Agent": "MetadataScraper/1.0 (+https://bitbash.dev)"
+    }
+  },
+  "crawler": {
+    "delaySeconds": 0.0,
+    "maxRequestsPerCrawl": 100
+  },
+  "output": {
+    "path": "data/output.json"
+  }
+}
