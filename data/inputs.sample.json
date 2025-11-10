@@ -1,0 +1,21 @@
+{
+  "startUrls": [
+    { "url": "https://roger-hannah.co.uk/properties/bolton-street/" }
+  ],
+  "scrapeUrlGlobs": [
+    "https://roger-hannah.co.uk/properties/*"
+  ],
+  "paginationUrlGlobs": [
+    "https://roger-hannah.co.uk/properties/page/*",
+    "https://roger-hannah.co.uk/properties/"
+  ],
+  "ignoreUrlGlobs": [
+    "*?utm_*",
+    "*#*",
+    "*facebook.com*",
+    "*twitter.com*"
+  ],
+  "maxRequestsPerCrawl": 20,
+  "outputFile": "data/sample_output.json",
+  "delaySeconds": 0.0
+}
